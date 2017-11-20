@@ -15,7 +15,7 @@ function pressIt() {
   $('#typing').on('keydown', function(e) {
     // 'g' corresponds to 71
     if (e.which === 78) {
-      alert("You pressed 'N'!")
+      alert("You pressed 'n'!")
     }
   })
 }
